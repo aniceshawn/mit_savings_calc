@@ -1,10 +1,6 @@
 import tkinter as tk
 
 root = tk.Tk()
-#root.geometry("350x350")
-
-
-
 
 # Functions
 def get_house_cost():
@@ -112,10 +108,6 @@ months_to_save = tk.Text(root, height=4, width=20, wrap=tk.WORD)
 
 months_to_save.insert(tk.INSERT, "months saved")
 months_to_save.grid(row=15, column=0)
-
-
-
-
 
 
 root.mainloop()
